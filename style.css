@@ -1,0 +1,111 @@
+ *{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.carousel-item {
+position: relative;
+right: 20px;
+left: 20px;
+color: #fff;
+text-align:  center;
+justify-content: center;
+align-items: center;
+} 
+
+ .welcome{
+  margin-top: -40%;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #00007f;
+  position: relative;
+ }
+
+ .pr{
+  font-size: 20px;
+  font-weight: 500;
+  color: #00007f;
+ }
+
+ .card{
+  background-color: #00007f
+
+ }
+  
+/* form-border */
+.colour{
+  border:1px solid black;
+}
+
+/* comment */
+.field{
+  border:1px solid black;
+  padding: 30px;
+}
+
+.btn{
+  background-color: #00007f;
+  color: #fff;
+}
+
+.navbar-brand{
+  font-size: 70px;
+  font-weight: 700;
+  color: #00007f;
+}
+
+.heading{
+  background-color:#00007f;
+}
+
+.card-text{
+  font-size: 95%;
+  font-weight: 450%;
+}
+
+.form-group {
+  font-weight: bold;
+  font-style: normal;
+  border: black;
+}
+
+
+
+@media (max-width:768px) {
+  .body{
+    font-size: 14px;
+  }
+  .carousel-item img{
+    width: 100%;
+    height: 150%;
+}
+ }
+
+ @media (min-width:768px) and (max-width:1024px) {
+  .body{
+    font-size: 16px;
+  }
+ }
+
+ @media (min-width:1024px) {
+  .body{
+    font-size: 18px;
+  }
+ }
+
+ .nav-left{
+    position: relative;
+    margin-right: 0%;
+
+ }
+
+
+
+
+
+ 
+
+ 
